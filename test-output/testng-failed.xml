@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Selenium.DemoTng">
+        <methods>
+          <include name="Perform"/>
+          <include name="openbrow"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Selenium.DemoTng -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
