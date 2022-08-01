@@ -2,13 +2,13 @@ package firstapp;
 
 public class reversestring {
 public static void main(String[] args) {
-		String name="dell";
+		String str="dell";
 		String reversename=" ";
-		for(int i= name.length()-1;i>=0;i++)
+		for(int i=str.length()-1;i>=0;i++)
 		{
-			reversename=reversename+name;
+			reversename=reversename+str.charAt(i);
 		}
-		System.out.println("original name:"+name);
+		System.out.println("original name:"+str);
 		System.out.println("reverse og given name:"+reversename);
 }
 }

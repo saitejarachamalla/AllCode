@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10276" started-at="2022-04-21T09:34:26Z" finished-at="2022-04-21T09:34:36Z">
+  <suite name="Suite" duration-ms="4" started-at="2022-04-23T07:30:36Z" finished-at="2022-04-23T07:30:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10276" started-at="2022-04-21T09:34:26Z" finished-at="2022-04-21T09:34:36Z">
-      <class name="Selenium.DemoTng">
-        <test-method status="PASS" signature="openbrow()[pri:0, instance:Selenium.DemoTng@4883b407]" name="openbrow" is-config="true" duration-ms="2234" started-at="2022-04-21T15:04:24Z" finished-at="2022-04-21T15:04:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openbrow -->
-        <test-method status="PASS" signature="Perform()[pri:0, instance:Selenium.DemoTng@4883b407]" name="Perform" duration-ms="10258" started-at="2022-04-21T15:04:26Z" finished-at="2022-04-21T15:04:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Perform -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Selenium.DemoTng@4883b407]" name="closebrowser" is-config="true" duration-ms="10927" started-at="2022-04-21T15:04:36Z" finished-at="2022-04-21T15:04:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
-      </class> <!-- Selenium.DemoTng -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="4" started-at="2022-04-23T07:30:36Z" finished-at="2022-04-23T07:30:36Z">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
